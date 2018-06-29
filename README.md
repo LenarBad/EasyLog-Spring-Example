@@ -74,7 +74,7 @@ public class MyLogger extends EasyLogger {
     }
 ```
 
-Log ouptut will look like this
+Log output will look like this
 
 ```json
 2018-06-29 14:40:47.139  INFO 12128 --- [           main] UneasyLogger                             : 
