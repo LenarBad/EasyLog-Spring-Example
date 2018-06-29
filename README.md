@@ -1,5 +1,3 @@
-[![Maven Central](https://img.shields.io/maven-central/v/io.lenar/easy-log.svg)](https://maven-badges.herokuapp.com/maven-central/io.lenar/easy-log)
-
 # Easy Log for Spring projects - example
 
 ## pom.xml
@@ -9,6 +7,8 @@
 <code>io.lenar:easy-log</code>.
 
 Version: <code>0.9.5</code> or higher
+
+Current Version: [![Maven Central](https://img.shields.io/maven-central/v/io.lenar/easy-log.svg)](https://maven-badges.herokuapp.com/maven-central/io.lenar/easy-log)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
