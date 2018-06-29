@@ -136,7 +136,7 @@ Execution/Response time:  1ms
 
 ### LogIt annotation with parameters - example
 
-NOTE: Make sure you have set the correct logging level. In the example it's <code>DEBUG</code>
+NOTE: Make sure you have set the correct logging level. In the example it's <code>DEBUG</code> (see <code>application.properties</code>)
 
 ```java
     @LogIt(label = "DEBUG BIG BANG ISSUE",
