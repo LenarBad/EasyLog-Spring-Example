@@ -2,6 +2,8 @@
 
 # Easy Log for Spring projects - example
 
+This is the example that demonstrates how to use [EasyLog](https://github.com/LenarBad/EasyLog) for Spring projects
+
 ## pom.xml
 
 ### Maven dependency
