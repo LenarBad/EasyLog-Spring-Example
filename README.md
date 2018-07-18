@@ -1,3 +1,5 @@
+[https://lenarbad.github.io/EasyLog/](https://lenarbad.github.io/EasyLog/)
+
 # Easy Log for Spring projects - example
 
 ## pom.xml
