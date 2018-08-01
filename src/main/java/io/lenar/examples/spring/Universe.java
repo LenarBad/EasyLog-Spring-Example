@@ -47,19 +47,16 @@ public class Universe {
         return prefix + UUID.randomUUID().toString();
     }
 
+    @LogIt
     private List<Planet> randomPlanets() {
         return IntStream.range(0, (int) (Math.random() * 3)).boxed()
                 .map(item -> new Planet(randomName("Planet-"), new Random().nextBoolean()))
                 .collect(Collectors.toList());
     }
 
+    @LogIt
     public String toBeLogged(String param) {
         return param + " :: " + param;
-    }
-
-    @LogIt
-    public String anotherMethodToBeLogged(String param) {
-        return param + " :!!!: " + param;
     }
 
     public List<Star> getStars() {

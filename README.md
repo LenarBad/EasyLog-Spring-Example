@@ -1,18 +1,18 @@
-[https://lenarbad.github.io/EasyLog/](https://lenarbad.github.io/EasyLog/)
+<p align="center">
+  <a href="https://github.com/LenarBad/easylog">EasyLog Source Code</a> |
+  <a href="https://lenarbad.github.io/easylog/">EasyLog Site</a>
+
+Current Version: [![Maven Central](https://img.shields.io/maven-central/v/io.lenar/easy-log.svg)](https://maven-badges.herokuapp.com/maven-central/io.lenar/easy-log)
+</p>
 
 # Easy Log for Spring projects - example
 
-This is the example that demonstrates how to use [EasyLog](https://github.com/LenarBad/EasyLog) for Spring projects
+This is the example that demonstrates how to use **EasyLog** for Spring projects
 
 ## pom.xml
 
 ### Maven dependency
 
-<code>io.lenar:easy-log</code>.
-
-Version: <code>0.9.5</code> or higher
-
-Current Version: [![Maven Central](https://img.shields.io/maven-central/v/io.lenar/easy-log.svg)](https://maven-badges.herokuapp.com/maven-central/io.lenar/easy-log)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -44,7 +44,7 @@ Current Version: [![Maven Central](https://img.shields.io/maven-central/v/io.len
         <dependency>
             <groupId>io.lenar</groupId>
             <artifactId>easy-log</artifactId>
-            <version>0.9.7</version>
+            <version>1.1.2</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -83,10 +83,8 @@ Log output will look like this
 ```json
 2018-06-29 14:40:47.139  INFO 12128 --- [           main] UneasyLogger                             : 
 -> public Universe Universe.bigBang(int numberOfStars, int numberOfBlackHoles)
-{
-  "numberOfStars": 3,
-  "numberOfBlackHoles": 3
-}
+"numberOfStars": 3,
+"numberOfBlackHoles": 3
 
 2018-06-29 14:40:47.141  INFO 12128 --- [           main] UneasyLogger                             : 
 Execution/Response time:  1ms
@@ -160,9 +158,7 @@ Log output
 2018-06-29 14:49:51.389 DEBUG 15704 --- [           main] UneasyLogger                             : 
 DEBUG BIG BANG ISSUE
 -> public Universe Universe.bigBang(int numberOfStars, int numberOfBlackHoles<NOT_LOGGED>)
-{
-  "numberOfStars": 3
-}
+"numberOfStars": 3
 
 2018-06-29 14:49:51.467 DEBUG 15704 --- [           main] UneasyLogger                             : 
 Execution/Response time:  36ms
