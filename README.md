@@ -8,13 +8,9 @@
 
 </p>
 
-<p align="center">
-   <h1>Easy Log for Spring projects - example</h1>
+# Easy Log for Spring projects - example
     
-   This is the example that demonstrates how to use **EasyLog** for Spring projects
-</p>
-
-
+This is the example that demonstrates how to use **EasyLog** for Spring projects
 
 ## pom.xml
 
