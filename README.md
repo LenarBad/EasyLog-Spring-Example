@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://github.com/LenarBad/easylog">EasyLog Source Code</a> |
-  <a href="https://lenarbad.github.io/easylog/">EasyLog Site</a>
+  <a href="https://lenarbad.github.io/easylog/">EasyLog Site</a> | 
+  <a href="https://github.com/LenarBad/easylog">Source Code</a>
   <br>
   <a href="https://maven-badges.herokuapp.com/maven-central/io.lenar/easy-log">
     <image src="https://img.shields.io/maven-central/v/io.lenar/easy-log.svg" alt="Maven Central">
@@ -8,14 +8,15 @@
 
 </p>
 
-# Easy Log for Spring projects - example
+<p align="center">
+   <h1>Easy Log for Spring projects - example</h1>
+    
+   This is the example that demonstrates how to use **EasyLog** for Spring projects
+</p>
 
-This is the example that demonstrates how to use **EasyLog** for Spring projects
+
 
 ## pom.xml
-
-### Maven dependency
-
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -60,7 +61,7 @@ This is the example that demonstrates how to use **EasyLog** for Spring projects
 
 If your project has another parent project (that has to be a Spring project as well) you might not need <code>spring-boot-starter-aop</code> - just check.
 
-### Extend EasyLogger
+## Extend EasyLogger
 
 ```java
 @Component
