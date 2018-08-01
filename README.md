@@ -1,8 +1,11 @@
 <p align="center">
   <a href="https://github.com/LenarBad/easylog">EasyLog Source Code</a> |
   <a href="https://lenarbad.github.io/easylog/">EasyLog Site</a>
+  <br>
+  <a href="https://maven-badges.herokuapp.com/maven-central/io.lenar/easy-log">
+    <image src="https://img.shields.io/maven-central/v/io.lenar/easy-log.svg" alt="Maven Central">
+  </a>
 
-Current Version: [![Maven Central](https://img.shields.io/maven-central/v/io.lenar/easy-log.svg)](https://maven-badges.herokuapp.com/maven-central/io.lenar/easy-log)
 </p>
 
 # Easy Log for Spring projects - example
