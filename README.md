@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://lenarbad.github.io/easylog/">EasyLog Site</a> | 
+  <a href="https://lenar.io/easylog/">EasyLog Site</a> | 
   <a href="https://github.com/LenarBad/easylog">Source Code</a>
   <br>
   <a href="https://maven-badges.herokuapp.com/maven-central/io.lenar/easy-log">
