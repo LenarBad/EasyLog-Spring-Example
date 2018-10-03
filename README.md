@@ -44,7 +44,7 @@ This is the example that demonstrates how to use **EasyLog** for Spring projects
         <dependency>
             <groupId>io.lenar</groupId>
             <artifactId>easy-log</artifactId>
-            <version>1.1.2</version>
+            <version>1.2.2</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
